@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="border-bottom: 3px solid skyblue; width: 230px">Multiply a and b</h1>
+    x : <input onkeyup=multiply_ab() type="text" placeholder="input here . . .." id="input_a"/>
+    y : <input onkeyup=multiply_ab() type="text" placeholder="input here . . .." id="input_b"/>
+    <h3>Result : <span id="result_1">?</span></h3>
+    <br>
+
+    <h1 style="border-bottom: 3px solid skyblue; width: 340px;">Multiply x ( x = 2 ) and y</h1>
+    x : <input type="text" placeholder="x" disabled value="2"/>
+    y : <input onkeyup="multiply_xy()" type="text" placeholder="input here . . .." id="input_y"/>
+    <h3>Result : <span id="result_2">?</span></h3>
+
+
+    <script src="./dist/main.bundle.js"></script>
+</body>
+</html>

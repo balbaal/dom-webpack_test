@@ -1,0 +1,26 @@
+{
+  "name": "dom-webpack_test",
+  "version": "1.0.0",
+  "description": "test webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balbaal/dom-webpack_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balbaal/dom-webpack_test/issues"
+  },
+  "homepage": "https://github.com/balbaal/dom-webpack_test#readme",
+  "devDependencies": {
+    "webpack": "^4.25.1"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
