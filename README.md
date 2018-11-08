@@ -1,2 +1,2 @@
 # dom-webpack_test
-test webpack
+test webpack + implement es6
